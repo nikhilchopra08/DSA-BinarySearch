@@ -55,5 +55,10 @@ int main(){
     cout << "the first occurance of 6 is at " << firstOcc(arr , 6 , 6) << endl;
     cout << "last occurance " << LastOcc(arr , 6 , 6) << endl;
 
+    //also find total no. of occurance
+
+    int total = (LastOcc(arr , 6 ,6) - firstOcc(arr , 6 ,6) ) +1 ;
+    cout << total<< endl;
+
     return 0;
 }
